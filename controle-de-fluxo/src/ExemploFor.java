@@ -1,8 +1,10 @@
 public class ExemploFor {
     public static void main(String[] args) {
        
-        for(int par = 0; par <= 101;par = par + 2){
-            System.out.println(par);
-        }
+        int num = 5;
+        int count = 1;
+        do {
+            num = num + count;
+            System.out.println(num);
+        } while (count <= 3);}
     }
-}
